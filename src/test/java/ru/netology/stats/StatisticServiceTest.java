@@ -47,6 +47,7 @@ public class StatisticServiceTest {
         long[] incomesInBillions = {111111111, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
         long expected = 111111111;
 
+
         long actual = service.findMax(incomesInBillions);
 
         Assertions.assertEquals(expected, actual);
